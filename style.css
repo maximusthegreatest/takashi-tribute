@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body, html {
+	
+  padding: 0;
+	margin: 0;
+}
+
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+div {
+	padding: 0 ;
+	margin: 0 ;
+}
+
+.row {
+  margin: 0;
+}
+.landing {
+	/* Set rules to fill background */
+
+  min-height: 100%;
+  
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+
+/*on hover turn greyscale*/
+ 
+
+}
+
+
+.title {
+	display: inline-block;
+}
+.title h1 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	color: white;
+	font-size: 4em;
+	position: absolute;
+    left: 0;
+    right: 0;
+    top: 42%;
+    margin: 0 auto;
+
+     z-index: 1;
+    max-width: 500px;
+    padding: 30px 0;
+
+
+}
+
+.filter {
+	-webkit-filter: grayscale(100%);  Safari 6.0 - 9.0 
+    filter: grayscale(100%);
+}
+
+#logo {
+	margin-top: 10px; 
+	/*margin-left: 40px;*/ 
+	width: 80px;
+	height: 80px;
+   /* max-width: 500px;
+    max-height: 50px;*/
+}
+
+
+#nav-list {
+	list-style-type: none;
+	padding-left: 0px;
+	margin-top: 25px;
+}
+
+#nav-list li {
+	font-family: 'Raleway', sans-serif;
+	font-size: 2em;
+}
+
+
+.parallax { 
+    /* The image used */
+   
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-img1 {
+	 background-image: url('para.jpeg');
+}
+
+.bg-img2 {
+	 background-image: url('bg-img2.jpg');
+
+}
+
+.bg-img3 {
+	 background-image: url('bg-img3.jpg');
+   /*margin-bottom: 50px;*/
+
+}
+
+.content-area {
+	padding-right: 5% ;
+	/*margin-top: 5%;*/
+	padding-left: 0 !important; 
+}
+
+.content-area-work {
+  
+  margin-top: 5%;
+  padding-left: 0 !important; 
+}
+
+.content-box {
+	font-size: 1.5em;
+	background-color: #9923d3;
+	color: white;
+	overflow: hidden;
+	padding: 10px 0 !important;
+}
+
+#nav-list li a {
+	color: black;
+	text-decoration: none;
+}
+
+.work-img {
+	 min-height: 100%;
+  
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+
+	
+}
+
+.min {
+	min-width: 300px !important;
+	max-width: 400px;
+}
+
+.contacttitle {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.submitbtn {
+  background-color: #9909ba;
+  padding: 10px 20px;
+}
+
+.submitbtn:hover {
+  background-color: white;
+  color: #9909ba;
+  
+}
+
+
+
+#work1 {
+
+}
+
+.err-msgs {
+  margin-top: 20px;
+}
+
+
+
+
+/*#test {
+  color: purple;
+  font-size: 50px;
+}*/
+
+.work_group1 {
+	vertical-align: top;
+
+
+}
+
+/*.work_title {
+	color: white;
+    position: relative;
+    bottom: 100px;
+    left: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 5px;
+    /*background-color: black;*/
+
+/*} */
+
+.work_title {
+  color: white;
+    position: relative;
+    bottom: 100px;
+    left: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    
+    /*background-color: black;*/
+
+}
+
+.letterSpans {
+  padding: 5px;
+  margin: 0;
+  background-color: black;
+}
+
+h1 .letterSpans {
+  display: inline-block;
+  animation: animate 1.5s linear forwards;
+}
+
+
+#kanye {
+  transform: translate(-90%, -90%);
+}
+
+@keyframes animate {
+    0%
+    {
+      transform: translateX(0px);
+      opacity:0;
+    }
+     10%
+    {
+      transform: translateX(50px);
+      opacity:0.2;
+    }
+    
+     25%
+    {
+      transform: translateX(50px);
+     
+    }
+      30%
+    {
+      transform: translateX(100px);
+    
+    }
+    40%
+    {
+      transform: translateX(150px);
+      opacity:0.3;
+    }
+     100%
+    {
+      transform: translateX(270px);
+      opacity:1;
+    }
+}
+
+.work_subtitle {
+	color: white;
+    font-size: 16px;
+    position: relative;
+    bottom: 80px;
+    left: 5px;
+    /*font-style: italic;*/
+    font-weight: bold;
+    padding: 5px;
+    /*background-color: black;*/
+}
+
+
+
+.workdiv img {
+	width: 300px; 
+	height: 500px;
+  	margin:auto;
+  	display:block;
+}
+
+.noshow {
+	display: none;
+}
+
+.inline {
+	display: inline-block ;
+}
+
+
+.workdiv {
+	width: 300px;
+	height: 500px;
+	margin-top: 5px;
+  overflow: hidden;
+  margin-right: 10px;
+
+}
+
+.switch-btn {
+	padding: 20px 32px;
+  margin-top: 10px;
+	background-color: #9909ba;
+}
+
+.plusbtn {
+  color: white;
+}
+
+/*Work1*/
+
+
+
+#video-background { 
+      width:100%;
+     height: 500px;
+
+}
+
+.header_img {
+  width: 100%;
+  height: 500px;
+  margin-top: 20px;
+  background-color: 
+}
+
+.header_img img {
+  width:100%;
+  height:100%;
+
+}
+
+.grad_cover {
+  width: 100%;
+  height: 500px;
+  text-align: center;
+}
+
+.grad_cover img {
+  
+  max-width:100%;
+  max-height:100%;
+}
+
+.para {
+  margin-top: 50px;
+  font-size: 18px;
+  padding: 20px ;
+  line-height: 2em;
+
+}
+
+.vid-fit {
+  width: 100%;
+  height: 700px;
+  margin-top: 20px;
+}
+
+.kanye-vid {
+  width: 100%;
+  height: 100%;
+  
+}
+
+.img-desc {
+  float: right;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.img-little {
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.last {
+  margin-bottom: 50px;
+}
+
+.content-div {
+  /*background-color: #d3dae5;*/
+}
+
+.home-title {
+  font-size: 3em;
+  font-weight: bold;
+margin-top: 40px;
+  margin-bottom: 20px;
+  color: #FFFFFF;
+}
+
+#home {
+  background-color: #c367d3;
+}  
+
+.navarea {
+  padding-left: 30px; 
+}  
+
+
+@media (max-width: 991px) { 
+  
+
+  .content-area {
+    padding-right: 0;
+  }
+
+  .navarea {
+    text-align: center; 
+    padding-left: 0px;
+  }  
+
+  .content-box {
+  /*font-size: 18px;*/
+  background-color: #9923d3;
+  color: white;
+  overflow: hidden;
+  padding: 10px 0 !important;
+}
+
+}
+
+@media (max-width: 1400px) {
+
+  .para {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 316px) { 
+  .workdiv {
+  width: 250px;
+  height: 500px;
+  margin-top: 5px;
+  overflow: hidden;
+
+}
+
+
+.workdiv img {
+  width: 250px; 
+  height: 500px;
+    margin:auto;
+    display:block;
+}
+
+
+@keyframes animate {
+    0%
+    {
+      transform: translateX(0px);
+      opacity:0;
+    }
+     10%
+    {
+      transform: translateX(10px);
+      opacity:0.2;
+    }
+    
+      30%
+    {
+      transform: translateX(20px);
+    
+    }
+    40%
+    {
+      transform: translateX(30px);
+      opacity:0.3;
+    }
+     100%
+    {
+      transform: translateX(220px);
+      opacity:1;
+    }
+}
+
+.work_subtitle .doubleline {
+    position: relative;
+    bottom: 25px;
+    
+}
+
+
+
+
